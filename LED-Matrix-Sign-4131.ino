@@ -82,7 +82,7 @@ Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(NUM_COL, NUM_ROW, 1, 1, PIXEL_PIN
   NEO_MATRIX_TOP + NEO_MATRIX_LEFT + NEO_MATRIX_COLUMNS + NEO_MATRIX_ZIGZAG,
   PIXEL_TYPE);
 
-String webText = "Liberty Robotics FRC 4131 The Iron Patriots    ";
+String webText = " Liberty Robotics   FIRST  FRC  4131  The  Iron  Patriots  from  Liberty High School in Renton WA    ";
 
 //-------------------------------------------------------------------------------
 void setup() {
@@ -109,7 +109,7 @@ void loop() {
 
    blinkLED(3);
 
-   digitalWrite(13, HIGH);
+//   digitalWrite(13, HIGH);
    lightsOff();
   
 //   testMatrixWipe(1); lightsOff(); delay(500);
@@ -142,7 +142,7 @@ void loop() {
    
    delay(1000); 
 */
-   lightsOff(); delay(500); 
+//   lightsOff(); delay(500); 
 
    alderaan(); lightsOff(); delay(500); 
     
