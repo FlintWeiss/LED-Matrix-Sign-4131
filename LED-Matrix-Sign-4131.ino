@@ -144,10 +144,12 @@ void loop() {
 */
 //   lightsOff(); delay(500); 
 
+   scrollText("Liberty Robotics  ");
    alderaan(); lightsOff(); delay(500); 
     
    //rainbowCycle(1); lightsOff(); delay(250);
 
+   scrollText("FIRST   Robotics  FRC  Team  4131   ");      
    pacman(); lightsOff(); delay(250);
 /*   
    // Draw a bunch of rectangles "going down"
@@ -162,6 +164,7 @@ void loop() {
    matrix.drawRect(1, 1, NUM_COL-2, NUM_ROW-2, matrix.Color(0, 0, 0)); matrix.show(); delay(500); 
    matrix.drawRect(0, 0, NUM_COL,   NUM_ROW, matrix.Color(0, 0, 0)); matrix.show(); delay(500); 
 */
+   scrollText("The  Iron  Patriots  from  Liberty High School in Renton WA    ");
    boxAnimation(5); lightsOff(); delay(250);
 
 /*
@@ -176,7 +179,7 @@ void loop() {
 
    theaterChaseRainbow(50); lightsOff(); delay(500);
 */
-   scrollText(webText);
+   scrollText("HONK! If you LOVE Robots!!!    ");
 
     delay(200);
 } // end loop
